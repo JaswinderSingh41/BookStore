@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --main-bg-color: #4592e4;
+  }
+  body{
+      background: black;
+  }
+*{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+header{
+    background: var(--main-bg-color); 
+    font-family: 'Lato', sans-serif;
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 40px;
+    padding: 0 15px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+nav ul li{
+    list-style: none; 
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav ul li a:hover{ 
+    font-weight: bolder;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding:0 12px;
+    color: black;
+}
+
+.search button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.slider{ 
+    width: 50vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 37px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.cards{
+    display: flex; 
+    overflow: hidden;
+}
+
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+
+.card h2{
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color); 
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+
+#Ja3{
+    margin: 180px 84px;
+    padding: 0px 18px;
+}
+.form {
+    /* border: 2px solid red; */
+    display: block;
+    margin: 8px 84px;
+    padding: 0px 18px;
+    background-color: #060c1080;
+    margin-bottom: 14vw;
+}
+
+#fname,
+#lname {
+    margin: 6px 6px;
+    padding: 4px 2px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#male,
+#female,
+#others {
+    margin: 2px 20px;
+
+}
+
+#reason {
+    text-align: center;
+}
+
+#email,
+#contact {
+    margin: 6px 17px;
+    padding: 4px 2px;
+    background-color: black;
+    border-radius: 10px;
+}
+
+#submit,
+#reset {
+    margin: 6px 17px;
+    padding: 4px 2px;
+    background-color: black;
+    border-radius: 10px;
+    width: 42%;
+    font-size: 25px;
+}
+#submit:hover,
+#reset:hover{
+    cursor: pointer;
+    background-color: #4592e4;
+    
+}
+
